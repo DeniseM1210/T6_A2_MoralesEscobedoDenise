@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/id_boton_agregar"
+        android:layout_width="362dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="abrir_Activitis"
+        android:text="Agregar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_modificar"
+        android:layout_width="362dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="abrir_Activitis"
+        android:text="Modificar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_eliminar" />
+
+    <Button
+        android:id="@+id/btn_consultas"
+        android:layout_width="362dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="abrir_Activitis"
+        android:text="Consultar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_modificar" />
+
+    <Button
+        android:id="@+id/btn_eliminar"
+        android:layout_width="362dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="23dp"
+        android:onClick="abrir_Activitis"
+        android:text="Eliminar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_boton_agregar" />
+
+    <Button
+        android:id="@+id/btn_salir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="163dp"
+        android:text="Salir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_consultas" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="137dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

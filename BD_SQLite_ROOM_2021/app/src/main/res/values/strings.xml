@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">app1_clase</string>
+    <string name="lbl_usuario">Ingresa tu usuario</string>
+    <string name="caja_usuario"></string>
+    <string name="lbl_contra">Ingresa tu contraseña</string>
+    <string name="btn_ingresar">Acceder</string>
+    <string name="btn_registro">Registrarse</string>
+    <string name="btn_altas">Altas</string>
+
+
+</resources>
